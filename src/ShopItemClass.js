@@ -3,11 +3,6 @@ import PropTypes from 'prop-types'
 import ShopItemModel from './ShopItemModel';
 
 export default class ShopItemClass extends React.Component {
-  constructor(props) {
-    super(props);
-      this.props = props;
-  }
-
   render() {
     const item = this.props.item.props;
     return (
